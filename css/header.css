@@ -35,3 +35,24 @@
     font-style: 12px;
     line-height: 16px;
 }
+
+@media (min-width: 480px) {
+    .header{
+        background-size: 1500px;
+        padding-bottom: 44px;
+    }
+
+    .header__container{
+        max-width: 480px;
+    }
+
+    .header__title-container{
+        padding-bottom: 0;
+        padding-left: 180px;
+        padding-top: 27px;
+        text-align: left;
+        background-position: left;
+        background-size: contain;
+        min-height: 190px;
+    }
+}
