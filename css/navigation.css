@@ -1,0 +1,15 @@
+.navigation{
+    margin-bottom: 30px;
+}
+
+.navigation__container{
+    padding: 0;
+    min-width: 100vw;
+}
+
+.navigation__list{
+    display: flex;
+    padding: 0 calc(100vw / 2 - var(--container) / 2);
+    overflow-x: auto;
+    overflow-y: hidden;
+}
