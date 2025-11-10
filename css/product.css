@@ -50,4 +50,36 @@
     padding: 9px;
 }
 
-
+@media (min-width: 1024px){
+    .product{
+        padding: 12px;
+        min-height: 411px;
+        border-radius: 18px;
+    }
+    
+    .product__image{
+        height: 220px;
+        border-radius: 12px;
+        margin-bottom: 16px;
+    }
+    
+    .product__price{
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+    
+    .product__title{
+        font-size: 16px;
+    }
+    
+    .product__weight{
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    
+    .product__add{
+        border-radius: 12px;
+        font-size: 16px;
+        padding: 12px;
+    }
+}

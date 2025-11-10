@@ -135,7 +135,42 @@
 }
 
 .order__close{
+    font-weight: 400;
     font-size: 10px;
     line-height: 14px;
     color: #B1B1B1;
+}
+
+@media (min-width: 768px) {
+    .order{
+        width: 145px;
+        max-width: 300px;
+        transition: widht 0.2s ease;
+    }
+
+    .order.order_open{
+        width: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .order{
+        width: 275px;
+    }
+
+    .order__wrapper{
+        position: unset;
+    }
+
+    .order__wrap-title{
+        margin-bottom: 8px;
+    }
+
+    /* .order__wrap_list{
+        display: block;
+    } */
+
+    .order__close{
+        display: none;
+    }
 }
