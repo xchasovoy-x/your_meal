@@ -40,12 +40,21 @@
     color: #FF7020;
 }
 
-.footer__development{
+.footer__developments{
     display: flex;
     flex-direction: column;
     gap: 4px;
     font-size: 12px;
     line-height: 16px;
+}
+
+.footer__development:hover,
+.footer__development:focus,
+.footer__link-phone:hover,
+.footer__link-phone:focus,
+.footer__link-sn:hover,
+.footer__link-sn:focus{
+    color: #FFAB08;
 }
 
 @media (min-width: 480px) {

@@ -59,6 +59,25 @@
     font-size: 12px;
     line-height: 100%;
     margin-right: 8px;
+    transition: transform .1s ease, background-color .3s ease-in-out;
+
+}
+
+.modal-product__btn:hover{
+    background-color: #FFAB08;
+}
+
+.modal-product__btn:focus-visible{
+    background-color: #F86310;
+}
+
+.modal-product__btn:active{
+    transform: translate(1px, 2px);
+}
+
+.modal-product__btn:disabled{
+    background-color: #F9F9F9;
+    color: #ACACAC;
 }
 
 .modal-product-price{
@@ -76,7 +95,7 @@
         padding: 16px 16px 24px;
         box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
         border-radius: 24px;
-}
+    }
     .modal-product__container{
         max-width: unset;
     }
